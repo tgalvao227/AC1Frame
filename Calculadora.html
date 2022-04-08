@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora AC</title>
+
+    <style>
+        input{
+            width: 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/calcula" method="POST">
+        
+        <label> Primeiro Numero</label>
+        <input type="text" id="primeiro" name="primeiro">
+        <label> Segundo Numero</label>
+        <input type="text" id="segundo" name="segundo">
+        <label> Operação  (+,-,*,/)</label>
+        <input type="text" id="operacao" name="operacao">
+        <input type="submit" name="enviar">
+    </form>
+</body>
+
+</html>
